@@ -27,8 +27,8 @@ MonoBehaviour:
     supportVolumetricClouds: 0
     supportLightLayers: 1
     supportWater: 1
-    waterSimulationResolution: 128
-    waterCPUSimulation: 0
+    waterSimulationResolution: 256
+    waterCPUSimulation: 1
     supportDistortion: 1
     supportTransparentBackface: 1
     supportTransparentDepthPrepass: 1
@@ -36,7 +36,7 @@ MonoBehaviour:
     colorBufferFormat: 48
     supportCustomPass: 1
     customBufferFormat: 12
-    supportedLitShaderMode: 2
+    supportedLitShaderMode: 3
     planarReflectionResolution:
       m_Values: 000100000004000000080000
       m_SchemaId:
@@ -46,7 +46,7 @@ MonoBehaviour:
       m_SchemaId:
         m_Id: With3Levels
     supportDecals: 1
-    supportDecalLayers: 0
+    supportDecalLayers: 1
     supportSurfaceGradient: 0
     decalNormalBufferHP: 0
     msaaSampleCount: 1
@@ -293,6 +293,8 @@ MonoBehaviour:
   diffusionProfileSettings: {fileID: 0}
   virtualTexturingSettings:
     streamingCpuCacheSizeInMegaBytes: 256
+    streamingMipPreloadTexturesPerFrame: 0
+    streamingPreloadMipCount: 1
     streamingGpuCacheSettings:
     - format: 0
       sizeInMegaBytes: 128

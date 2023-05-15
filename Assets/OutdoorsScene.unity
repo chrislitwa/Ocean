@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 2610.723, g: 3235.19, b: 4614.844, a: 1}
+  m_IndirectSpecularColor: {r: 2613.5168, g: 3238.4146, b: 4618.9536, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -421,7 +421,7 @@ MonoBehaviour:
   surfaceType: 0
   geometryType: 2
   mesh: {fileID: 0}
-  cpuSimulation: 0
+  cpuSimulation: 1
   cpuFullResolution: 0
   cpuEvaluateRipples: 0
   timeMultiplier: 1
@@ -469,7 +469,7 @@ MonoBehaviour:
   causticsPlaneBlendDistance: 1
   causticsResolution: 256
   causticsBand: 2
-  virtualPlaneDistance: 5
+  virtualPlaneDistance: 4
   foam: 1
   simulationFoamAmount: 0.2
   simulationFoamDrag: 0
@@ -520,13 +520,13 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   foamTexture: {fileID: 0}
-  foamTextureTiling: 0.2
+  foamTextureTiling: 0.15
   waterMask: {fileID: 0}
   waterMaskExtent: {x: 100, y: 100}
   waterMaskOffset: {x: 0, y: 0}
   decalLayerMask: 1
   lightLayerMask: 1
-  underWater: 0
+  underWater: 1
   volumeBounds: {fileID: 0}
   volumeDepth: 50
   volumePrority: 0
@@ -542,7 +542,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
@@ -605,8 +605,8 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.3
-  far clip plane: 1000
+  near clip plane: 0.01
+  far clip plane: 100000
   field of view: 60
   orthographic: 0
   orthographic size: 5
@@ -632,14 +632,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1823688464}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 10, z: -10}
+  m_LocalRotation: {x: -0.13934122, y: 0.70912266, z: -0.1462715, w: -0.6755248}
+  m_LocalPosition: {x: 0, y: 115.84, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 23.31, y: -452.78, z: 0}
 --- !u!114 &1823688468
 MonoBehaviour:
   m_ObjectHideFlags: 0
