@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 9414.81, g: 11773.149, b: 20298.814, a: 1}
+  m_IndirectSpecularColor: {r: 6717.579, g: 8326.985, b: 14291.299, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -153,7 +153,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 250000
+  m_Intensity: 150000
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -230,7 +230,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 250000
+  m_Intensity: 150000
   m_EnableSpotReflector: 0
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -879,8 +879,8 @@ MonoBehaviour:
   refractionColor: {r: 0.1, g: 0.5, b: 0.5, a: 1}
   maxRefractionDistance: 0.5
   absorptionDistance: 12
-  scatteringColor: {r: 0.13950694, g: 0.42402765, b: 0.5188679, a: 1}
-  ambientScattering: 0.115
+  scatteringColor: {r: 0, g: 0.31061482, b: 0.41509432, a: 1}
+  ambientScattering: 0.091
   heightScattering: 0.138
   displacementScattering: 0.267
   directLightTipScattering: 0.6
@@ -892,9 +892,9 @@ MonoBehaviour:
   causticsBand: 2
   virtualPlaneDistance: 4
   foam: 1
-  simulationFoamAmount: 0.319
+  simulationFoamAmount: 0.414
   simulationFoamDrag: 0
-  simulationFoamSmoothness: 0.65
+  simulationFoamSmoothness: 0.696
   foamMask: {fileID: 0}
   foamMaskExtent: {x: 100, y: 100}
   foamMaskOffset: {x: 0, y: 0}

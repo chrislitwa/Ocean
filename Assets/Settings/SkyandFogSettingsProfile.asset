@@ -90,7 +90,7 @@ MonoBehaviour:
     m_Value: 8
   groundTint:
     m_OverrideState: 1
-    m_Value: {r: 0.29957277, g: 0.29957277, b: 0.33962262, a: 1}
+    m_Value: {r: 0.37046102, g: 0.37046102, b: 0.4245283, a: 1}
   groundColorTexture:
     m_OverrideState: 0
     m_Value: {fileID: 0}
@@ -122,7 +122,7 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 1
   horizonTint:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: {r: 1, g: 1, b: 1, a: 1}
   zenithTint:
     m_OverrideState: 0
@@ -277,7 +277,7 @@ MonoBehaviour:
       m_Value: 0.055
     altitude:
       m_OverrideState: 1
-      m_Value: 5000
+      m_Value: 4000
     rotation:
       m_OverrideState: 0
       m_Value: 0
@@ -302,7 +302,7 @@ MonoBehaviour:
       m_Value:
         mode: 2
         customValue: 1e+13
-        additiveValue: -400
+        additiveValue: -300
         multiplyValue: 1
     flowmap:
       m_OverrideState: 0
