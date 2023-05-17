@@ -26,6 +26,9 @@ public class Bouyancy : MonoBehaviour
 	[SerializeField]
 	protected float waterAngularDrag;
 
+	[SerializeField]
+	protected float smoothFactor;
+
 	WaterSearchParameters Search;
 	WaterSearchResult SearchResult;
 
@@ -35,12 +38,20 @@ public class Bouyancy : MonoBehaviour
 		Search.startPosition = transform.position;
 		oceanSurface.FindWaterSurfaceHeight(Search, out SearchResult);
 
-		if (transform.position.y < SearchResult.height)
-		{
-			float displacementHeight = Mathf.Clamp01(SearchResult.height - transform.position.y / submergeDepth) * displacementPercent;
-			hullRigidbody.AddForceAtPosition(new Vector3(0f, Mathf.Abs(Physics.gravity.y) * displacementHeight, 0f), transform.position, ForceMode.Acceleration);
-			hullRigidbody.AddForce(displacementHeight * -hullRigidbody.velocity * waterDrag * Time.fixedDeltaTime, ForceMode.VelocityChange);
-			hullRigidbody.AddTorque(displacementHeight * -hullRigidbody.angularVelocity * waterAngularDrag * Time.fixedDeltaTime, ForceMode.VelocityChange);
+			if (transform.position.y < SearchResult.height)
+			{
+				float displacementHeight = Mathf.Clamp01(SearchResult.height - transform.position.y / submergeDepth) * displacementPercent;
+
+				// Smoothly interpolate the forces
+				Vector3 targetForce = new Vector3(0f, Mathf.Abs(Physics.gravity.y) * displacementHeight, 0f);
+				Vector3 smoothedForce = Vector3.Lerp(Vector3.zero, targetForce, Time.fixedDeltaTime * smoothFactor);
+				hullRigidbody.AddForceAtPosition(smoothedForce, transform.position, ForceMode.Acceleration);
+
+				Vector3 velocityForce = displacementHeight * -hullRigidbody.velocity * waterDrag * Time.fixedDeltaTime;
+				hullRigidbody.AddForce(velocityForce, ForceMode.VelocityChange);
+
+				Vector3 angularVelocityForce = displacementHeight * -hullRigidbody.angularVelocity * waterAngularDrag * Time.fixedDeltaTime;
+				hullRigidbody.AddTorque(angularVelocityForce, ForceMode.VelocityChange);
 		}
 	}
 }
