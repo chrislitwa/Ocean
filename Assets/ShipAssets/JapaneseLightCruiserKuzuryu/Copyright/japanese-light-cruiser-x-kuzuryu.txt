@@ -1,0 +1,26 @@
+[Your Game Name]
+
+Acknowledgement for Use of 3D Asset "Japanese Light Cruiser X-九头龙（Kuzuryu)"
+
+We would like to extend our heartfelt appreciation and acknowledgement to 全斗焕 for their valuable contribution to [Your Game Name]. We have utilized the 3D asset "Japanese Light Cruiser X-九头龙（Kuzuryu)," originally created by 全斗焕, in our game with various modifications.
+
+The "Japanese Light Cruiser X-九头龙（Kuzuryu)" asset is made available under the Creative Commons Attribution 4.0 International (CC BY 4.0) license, which grants us the right to use, adapt, and distribute the asset, while ensuring proper credit is given to the original creator.
+
+In accordance with the requirements of the Creative Commons Attribution 4.0 International (CC BY 4.0) license, we hereby provide the following acknowledgement for the use of the "Japanese Light Cruiser X-九头龙（Kuzuryu)" asset:
+
+Original Asset: "Japanese Light Cruiser X-九头龙（Kuzuryu)"
+Creator: 全斗焕
+License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+Source: Downloaded from Sketchfab
+
+We would also like to note that we have made modifications to the original asset to align it with the specific requirements and integration within [Your Game Name]. The modifications include alterations to the model and textures to enhance its compatibility and visual cohesiveness within our game.
+
+We wish to express our sincere gratitude to 全斗焕 for their exceptional work in creating the original "Japanese Light Cruiser X-九头龙（Kuzuryu)" asset. Their talent and dedication have significantly enriched the immersive experience and visual quality of our game. We understand and appreciate the importance of acknowledging and respecting the rights of content creators and remain committed to upholding the principles of the Creative Commons Attribution 4.0 International (CC BY 4.0) license.
+
+By providing this comprehensive acknowledgement, we aim to fulfill the obligations outlined in the Creative Commons Attribution 4.0 International (CC BY 4.0) license, ensuring that proper credit is attributed to 全斗焕 for their original creation, as well as recognizing the modifications made for our game.
+
+Once again, we extend our deepest appreciation to 全斗焕 for making the "Japanese Light Cruiser X-九头龙（Kuzuryu)" asset available under the Creative Commons Attribution 4.0 International (CC BY 4.0) license. Their contribution has been invaluable in shaping the immersive experience of [Your Game Name], and we are truly thankful for their talent and generosity.
+
+Thank you,
+
+[Your Company/Game Name]

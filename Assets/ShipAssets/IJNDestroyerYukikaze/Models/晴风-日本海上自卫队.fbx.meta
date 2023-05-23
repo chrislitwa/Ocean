@@ -1,0 +1,609 @@
+fileFormatVersion: 2
+guid: 850bef61f111e634e90840fdde1db158
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Harukaze-class,_JDS_Harukaze_(DD_101),_1956_0F574C5A_DFFE_41EB_890F_DCA864640860
+    second: {fileID: 2100000, guid: b3bcb8be798e0084ab141d59d1534bd2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Harukaze-class,_JDS_Harukaze_(DD_101),_1956_147DBA1E_1ACF_4109_A2B0_7075C67054CC
+    second: {fileID: 2100000, guid: 26e4680c09acf5d419f4304d7cbcb8c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Harukaze-class,_JDS_Harukaze_(DD_101),_1956_1E781199_24D3_4E41_BEA8_9411024C3319
+    second: {fileID: 2100000, guid: 041e3b41dca74a748b909a5eb902b78a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Harukaze-class,_JDS_Harukaze_(DD_101),_1956_21BB0ADD_F798_437E_A919_8C5B77547231
+    second: {fileID: 2100000, guid: 5c8308ed47539f14585cb277673407db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Harukaze-class,_JDS_Harukaze_(DD_101),_1956_22EF0479_B833_4857_A831_3E0B0373EC6E
+    second: {fileID: 2100000, guid: d3fcfccb76016594db3a8e914b717819, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Harukaze-class,_JDS_Harukaze_(DD_101),_1956_29C1DADC_CA4A_426E_AAB9_4D60C4E864AC
+    second: {fileID: 2100000, guid: 9a8f638394a3a3745a08d22abccd666c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Harukaze-class,_JDS_Harukaze_(DD_101),_1956_2D986ABA_0A58_4C17_A244_759A29663A1C
+    second: {fileID: 2100000, guid: 42e8aa1a88c567247ab7ea1560594e3a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Harukaze-class,_JDS_Harukaze_(DD_101),_1956_3CA4BD8C_EF1F_45A6_A2F6_7A5E3EF6530B
+    second: {fileID: 2100000, guid: 6bdf7fe0dbe083b42ad9e1def54a54fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Harukaze-class,_JDS_Harukaze_(DD_101),_1956_4A07903A_CE7E_4586_9AB4_BEB698B00CA8
+    second: {fileID: 2100000, guid: a329408aefcf8984183d2c39900b2592, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Harukaze-class,_JDS_Harukaze_(DD_101),_1956_4A8524CE_1D9D_4BDB_95A7_FDF1B0F95ABE
+    second: {fileID: 2100000, guid: 1a6f6d240344ca74989f6aee52945a91, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Harukaze-class,_JDS_Harukaze_(DD_101),_1956_4D898A67_4709_43B4_A7EA_B208E98AB94B
+    second: {fileID: 2100000, guid: e3e03033732d9244a9176cbb140f5fd8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Harukaze-class,_JDS_Harukaze_(DD_101),_1956_4DEEBEA2_E86C_4AB2_98EA_9FE2BAD68BDA
+    second: {fileID: 2100000, guid: 61e0ad61c2947fb43be4152b42d7821b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Harukaze-class,_JDS_Harukaze_(DD_101),_1956_4EBCEF7A_4F50_4640_B86D_C61E3BAE0E3A
+    second: {fileID: 2100000, guid: c3068fc5f7b475c449e2007d6a6e920c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Harukaze-class,_JDS_Harukaze_(DD_101),_1956_5D757F77_73D1_4FA3_8A29_A3C4270873AF
+    second: {fileID: 2100000, guid: 7a6b0fa488988e547ae3a464c8bff1dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Harukaze-class,_JDS_Harukaze_(DD_101),_1956_659102FC_096E_4FAE_99B7_2DF32E4E6E47
+    second: {fileID: 2100000, guid: 99aff6442dfcf92418a37880190a01c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Harukaze-class,_JDS_Harukaze_(DD_101),_1956_6B3B6EBB_C044_4B02_8FA8_362AB102B514
+    second: {fileID: 2100000, guid: 48e6edaebf38ff64398af695098fc620, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Harukaze-class,_JDS_Harukaze_(DD_101),_1956_757B0D89_FCBB_45CF_AB74_7B01D3230A07
+    second: {fileID: 2100000, guid: 1937c714aa7a10643808f9d1541136fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Harukaze-class,_JDS_Harukaze_(DD_101),_1956_7CD848BB_7167_4FB6_8255_76CF789BC0C1
+    second: {fileID: 2100000, guid: abf5cd971c779a044934a26181e34f98, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Harukaze-class,_JDS_Harukaze_(DD_101),_1956_86F9F35D_B9D0_4B66_95DD_783A78F9022D
+    second: {fileID: 2100000, guid: aa1d1c4061c805b4a8abc0be836a2113, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Harukaze-class,_JDS_Harukaze_(DD_101),_1956_8A311C8E_6E2E_4CE6_AE75_D5A8802D03F3
+    second: {fileID: 2100000, guid: cf182d553dcf54d47b4acbf65d79366a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Harukaze-class,_JDS_Harukaze_(DD_101),_1956_A1209299_5CBF_4A62_9F87_85B41417A99B
+    second: {fileID: 2100000, guid: 496dcc787756b3740893fd91bc265f32, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Harukaze-class,_JDS_Harukaze_(DD_101),_1956_C3AFBF47_1C4E_41A4_9E30_C98E98ADCE74
+    second: {fileID: 2100000, guid: 933307ca3e51206429dd3a47a8b45f55, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Harukaze-class,_JDS_Harukaze_(DD_101),_1956_C8AA54FD_86A8_4BE0_912F_B6AF9DAABC41
+    second: {fileID: 2100000, guid: 88e71f79fdbd19f4b9f7b3ea9fb71a09, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Harukaze-class,_JDS_Harukaze_(DD_101),_1956_D155F13B_DA24_4D62_BFB4_9E4CC77DA56E
+    second: {fileID: 2100000, guid: 7c51a02366a41834bb284d03a1b27db8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Harukaze-class,_JDS_Harukaze_(DD_101),_1956_DD437072_31C7_479E_915C_DC8B08E7DB80
+    second: {fileID: 2100000, guid: 979e27e8a46d7a04f9f0fc460449cc7a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Harukaze-class,_JDS_Harukaze_(DD_101),_1956_DF9E131F_7AED_418F_B652_8337A69CF232
+    second: {fileID: 2100000, guid: 25b7c2265260460438a47d830b4e15c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Harukaze-class,_JDS_Harukaze_(DD_101),_1956_EB48BEE9_7493_4122_819D_B07138CBBDF8
+    second: {fileID: 2100000, guid: d419b7f91d057d942a050874a7f38413, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Harukaze-class,_JDS_Harukaze_(DD_101),_1956_F14A4849_0562_4D43_ABCE_A8E344581388
+    second: {fileID: 2100000, guid: b8cb1f9ceba96b348b2804b11a6a5a84, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Harukaze-class,_JDS_Harukaze_(DD_101),_1956_F21F69F9_3814_460F_B36B_20C12C66CCBA
+    second: {fileID: 2100000, guid: 3d4c7ee2cdc61844b9470e261994075f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Harukaze-class,_JDS_Harukaze_(DD_101),_1956_FA647F2C_7C40_453C_8C92_71C6548F934A
+    second: {fileID: 2100000, guid: c72efaa9c9ea5f241863541884229678, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Harukaze-class,_JDS_Harukaze_(DD_101),_1956_FBE3C7C2_F87D_4DA3_A827_6CA29D3CBB8C
+    second: {fileID: 2100000, guid: 7ad607a32a5abf0459d5448beec0ce65, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Harukaze-class,_JDS_Harukaze_(DD_101),_1956_FFA6424A_8ACB_43D0_8DB7_DE0B902AE3CE
+    second: {fileID: 2100000, guid: 0d9873c7dff81d74685f5be77be87fe9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: USS_Forrestal,_CVA-59_022B73B3_DFEF_4819_8941_2801902B5333
+    second: {fileID: 2100000, guid: 4dbd7deafab018449bb036a269e48714, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: USS_Forrestal,_CVA-59_AC124145_B1B0_4051_BA13_E1B4E36380F7
+    second: {fileID: 2100000, guid: 7e8296022c9d74c409c93ec793c4cc3f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: USS_Forrestal,_CVA-59_F016BEE5_8216_4624_92FE_4324C2B96BC4
+    second: {fileID: 2100000, guid: f3e87df41f1ba83438695f89bcd915bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: USS_Forrestal,_CVA-59_F0B8D6A4_5F64_4CA2_9DEC_862BA9B371DF
+    second: {fileID: 2100000, guid: fffdb1a65b6a87044a106fda95740ac3, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: chain_c
+    second: {fileID: 2800000, guid: 2db27ea49ccb8634bb2d938f6716b823, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: chain_c_a
+    second: {fileID: 2800000, guid: a21d0a69d17a785418fa9567ec19a4ba, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: chain_n_s
+    second: {fileID: 2800000, guid: 3ce5fc5ca1e530b4a8457781e6127caa, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: depth_charge_hedgehog_c_camo_darkgrey
+    second: {fileID: 2800000, guid: c41eb9d7392f26f40b363c8697a996bd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: depth_charge_hedgehog_n_s
+    second: {fileID: 2800000, guid: 45052ac99b8e9c548b78b0beaf424449, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: depth_charge_mount_hedgehog_mk10_c_camo_warshipdeepgray
+    second: {fileID: 2800000, guid: daea7652e7e1e6c4781984450756e98a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: depth_charge_mount_hedgehog_mk10_n_s
+    second: {fileID: 2800000, guid: b2dc7c4015637274e98c8f02b6f22eb4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: depth_charge_mount_mk3_c_camo_warshipdeepgray
+    second: {fileID: 2800000, guid: 0712b074e6526bc48a26d54e3085b155, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: depth_charge_mount_mk3_n_s
+    second: {fileID: 2800000, guid: 2b14bee8f27e9a242bc7d942e44ddfb1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: depth_charge_mount_stern_escort_c_camo_warshipdeepgray
+    second: {fileID: 2800000, guid: 231e157d1ff77ea45901a67dd3a30799, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: depth_charge_mount_stern_escort_n_s
+    second: {fileID: 2800000, guid: 02178eb229e4bb64b9dba21093eace8f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: destroyer_harukaze_c_camo_darkbluebottom
+    second: {fileID: 2800000, guid: e62c1c33cd0f6f44d85d25655a04fe5a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: destroyer_harukaze_c_camo_hellgrau_50
+    second: {fileID: 2800000, guid: b69c20013cbbec041ba90b7d92db9a27, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: destroyer_harukaze_c_camo_lichtgrau
+    second: {fileID: 2800000, guid: 54b92544850e05443a78e6e71196a691, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: destroyer_harukaze_c_camo_linoleum_deck
+    second: {fileID: 2800000, guid: 4c7ab66713a7ea5438ffe1d9baf55ff1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: destroyer_harukaze_c_camo_oxidrot
+    second: {fileID: 2800000, guid: d4bdd56fbea12ce45af42314c62bd9ee, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: destroyer_harukaze_c_camo_teerfirnis
+    second: {fileID: 2800000, guid: 6debf4f475692e14192102b0027203f6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: destroyer_harukaze_c_camo_warshipdeepgray
+    second: {fileID: 2800000, guid: 636f5744ae7ff9b4cbf708ce19290101, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: destroyer_harukaze_n_s
+    second: {fileID: 2800000, guid: 7722a349fb58df04083bfea10c8588af, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: gun_40mm_bofors_mk1mk2_twin_c_camo_warshipdeepgray
+    second: {fileID: 2800000, guid: 78181002f9c14b74eb7a81561ce6e8c8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: gun_40mm_bofors_mk1mk2_twin_n_s
+    second: {fileID: 2800000, guid: bf1c7d701d4f3d24cbfcc0cbf9f5f9d6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: headlight_glass_c
+    second: {fileID: 2800000, guid: 2b6d4ecad898bc44ba35d7937cc315d0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: headlight_glass_c_a
+    second: {fileID: 2800000, guid: cba0d3ca92276604b97f46834a241dc1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: headlight_glass_n_s
+    second: {fileID: 2800000, guid: 1e2e36c4f386f154cba0fe5bd901033f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: lifeboat_japan_motor_c_camo_warshipdeepgray
+    second: {fileID: 2800000, guid: 25afa3941ad772449966ae23b8e5d361, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: lifeboat_japan_motor_n_s
+    second: {fileID: 2800000, guid: 7422bf335a052bd4ab212e5330158513, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: lifeboat_japan_motorboat_8m_c_camo_neutralgrey
+    second: {fileID: 2800000, guid: db8fd0b368515984c800e1ab5c65d2ba, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: lifeboat_japan_motorboat_8m_c_camo_warshipdeepgray
+    second: {fileID: 2800000, guid: 90c406269245efb45bb8c7565d860997, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: lifeboat_japan_motorboat_8m_n_s
+    second: {fileID: 2800000, guid: 659077d18b092cc428ad0280a8163b74, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: lifeboat_japan_wood_7m_c_camo_dark_wood
+    second: {fileID: 2800000, guid: f8917c9a0e2907e4ca4b9ef2364e31d7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: lifeboat_japan_wood_7m_c_camo_neutralgrey
+    second: {fileID: 2800000, guid: b472849a9005e884388cfb35f12f78f2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: lifeboat_japan_wood_7m_c_camo_warshipdeepgray
+    second: {fileID: 2800000, guid: 501fe82b8b58ea041a1e241675e71752, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: lifeboat_japan_wood_7m_n_s
+    second: {fileID: 2800000, guid: aa3f0559719c3974c897045a1c933988, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: lifeboat_usa_rubber_c_camo_warshipdeepgray
+    second: {fileID: 2800000, guid: 61f2d4df2455a684f954e5422a854fc8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: lifeboat_usa_rubber_n_s
+    second: {fileID: 2800000, guid: 68a9e423d615a7a44a078faf0cdf0ef0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: net_e_c
+    second: {fileID: 2800000, guid: 2d176a38ad3a8b749b26876dbdcb9d7b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: net_e_c_a
+    second: {fileID: 2800000, guid: 2dbe2df1f10577b459ae47d21c215c7d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: net_e_n_s
+    second: {fileID: 2800000, guid: e3f638aa8a86af648a84b8d50f206ec8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: net_f_c
+    second: {fileID: 2800000, guid: 36f9e99ad2300cb42ba322276b3e1cbd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: net_f_c_a
+    second: {fileID: 2800000, guid: b86bd09957d3f5d40836630f40d31ee0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: net_f_n_s
+    second: {fileID: 2800000, guid: ce6ae7932223b3c4c95850b83bd24e8e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: net_k_c
+    second: {fileID: 2800000, guid: d42ede63d6448054aa8feb6a6e52fb89, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: net_k_c_a
+    second: {fileID: 2800000, guid: 446dc1b8ee15c0e44a9c1a480f7f0b9e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: net_k_n_s
+    second: {fileID: 2800000, guid: d625bdb2aa19e914a9a9c0b53088ad60, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: net_l_c
+    second: {fileID: 2800000, guid: bd70052a70fdde844ba5bb4e5a421a6e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: net_l_c_a
+    second: {fileID: 2800000, guid: 0cbc590a120ee2c438ebbaa8ad81f5aa, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: net_l_n_s
+    second: {fileID: 2800000, guid: f9622177e64c6ea48b2d537d33b3e930, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: porthole_glass_c
+    second: {fileID: 2800000, guid: d3ff0dd77c4d5fa479e0d4e3016dab3e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: porthole_glass_c_a
+    second: {fileID: 2800000, guid: 20ff470293a5828428d5655172bd53b5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: porthole_glass_n_s
+    second: {fileID: 2800000, guid: 5c544f666eb309e44a57d3531e276367, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: rifled_barrel_c_c
+    second: {fileID: 2800000, guid: b830afc23d2e9d2478abbb3ae19f677e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: rifled_barrel_c_n_s
+    second: {fileID: 2800000, guid: 6cd39a0aef8074549b51bab6915c7d63, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: rope_c
+    second: {fileID: 2800000, guid: b84242d66aaf05e498bc182df9f88478, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: rope_c_a
+    second: {fileID: 2800000, guid: 1e7509ca635d9a149867d6c2dc6702b2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: sight_navy_02_c
+    second: {fileID: 2800000, guid: 53eff660496dcaa4289da01ae9e5947b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: sight_navy_02_c_a
+    second: {fileID: 2800000, guid: 00ceea9f36348964a891a25ef719e4ce, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: sight_navy_02_n_s
+    second: {fileID: 2800000, guid: 0f3c7d704931471408df32cbe628a5e5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: sight_navy_04_c
+    second: {fileID: 2800000, guid: 265880ed1ded5e34faf9043ff9d55776, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: sight_navy_04_c_a
+    second: {fileID: 2800000, guid: 8fa9caca5555b4b43bc8ef508e78289b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: sight_navy_04_n_s
+    second: {fileID: 2800000, guid: b6651be212c19134fa9dc828678765e6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: turret_127mm_mk42_c_camo_hazegray
+    second: {fileID: 2800000, guid: 8693eb2bb4db4fd46b6978f25adefb49, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: turret_127mm_mk42_n_s
+    second: {fileID: 2800000, guid: f0984736f8be3ae49b0e6d10a4b896c0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: turret_40mm_bofors_mk2_quadruple_c_camo_warshipdeepgray
+    second: {fileID: 2800000, guid: 24523ccd757010a4fb1733fb425cdfec, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: turret_40mm_bofors_mk2_quadruple_n_s
+    second: {fileID: 2800000, guid: d486ffe2a79422948bb48db783a174de, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 120
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 3.0479999
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

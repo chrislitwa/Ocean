@@ -1,0 +1,869 @@
+fileFormatVersion: 2
+guid: 24315311af014b943a592abaee845df2
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hayate_jga096_40mm_bofors_161
+    second: {fileID: 2100000, guid: 78612a35f845bb44f88052ee6b6cfe14, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ise_jga195_120mm_launcher_708
+    second: {fileID: 2100000, guid: 28862edec62a52e46b0f56b13fd6ea8c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kikka_material_1_685
+    second: {fileID: 2100000, guid: 6b644df6021b47a4fb424a2eb7a94b55, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kikka_material_2_685
+    second: {fileID: 2100000, guid: c271f081aa2f4b7428a74ba126bcc814, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kikka_material_3_685
+    second: {fileID: 2100000, guid: 2cc7f69c063c46540b55a4219610d1d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kikka_material_4_685
+    second: {fileID: 2100000, guid: 7ed6e7078de55a84ea75044ca6affbf6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #196
+    second: {fileID: 2100000, guid: 6f59b60a1533f27448e543be4c034d31, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #197
+    second: {fileID: 2100000, guid: d2c89b6952d1d6d46b5d68154f0aed9d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #198
+    second: {fileID: 2100000, guid: aade92fcbc057584c949d952e783143c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #199
+    second: {fileID: 2100000, guid: 654ca8ef337c4144ba634578eb716e24, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: R2Y2_Keiun-Kai_V1_material_1_137
+    second: {fileID: 2100000, guid: 1d9c10dcaf20ef3449ba2a717a11158f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: R2Y2_Keiun-Kai_V1_material_2_137
+    second: {fileID: 2100000, guid: 2cb31c7a0a3e5fd4f996fe1d94a11006, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: R2Y2_Keiun-Kai_V1_material_3_137
+    second: {fileID: 2100000, guid: 672ffbb93d7349a40b9437453998fba3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: R2Y2_Keiun-Kai_V1_material_4_137
+    second: {fileID: 2100000, guid: 0bd1b45777bee7c43902194dcd7153c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: R2Y2_Keiun-Kai_V1_material_5_137
+    second: {fileID: 2100000, guid: eafd65f450f1621409fc443564a832ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shikishima_JGS076_100mm65_Type98_skinned_365
+    second: {fileID: 2100000, guid: c734cc34fc3309e4fbf0471f35648774, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shokaku_c001_net_alpha_452
+    second: {fileID: 2100000, guid: 99be51f38f4dd9d4d941f5f916bd05b8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shokaku_c010_grid_8_alpha_441
+    second: {fileID: 2100000, guid: bc6ec3249078f3848bf6d0870de225eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shokaku_cm001_propeller_994
+    second: {fileID: 2100000, guid: a3bc385067671b940a0e38a0fd213cbe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shokaku_cm005_anchor_1_51
+    second: {fileID: 2100000, guid: 94837216665069e40ac7a54e8cf08c89, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shokaku_cm010_fire_hose_reel_59
+    second: {fileID: 2100000, guid: 01672c0a18ac7d940b967fa4a6b76dc5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shokaku_cm016_boat_stowage_2_495
+    second: {fileID: 2100000, guid: 8b936538f492aee45ac00b533117cd53, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shokaku_jd011_director_type_95_mod3_skinned_255
+    second: {fileID: 2100000, guid: a8e0fe973dd5d5943b2e57b64172bc7b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shokaku_jd022_director_type_95_mod1_441
+    second: {fileID: 2100000, guid: 5b55ab6f8fd708a48a4122a016c653a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shokaku_jd025_director_type_94_mod1_38
+    second: {fileID: 2100000, guid: d6cef3e7e0d4b594aa3a22e0fb9149df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shokaku_jd025_director_type_94_mod1_wire_441
+    second: {fileID: 2100000, guid: b3a8f5c391ad6c2419a59b0e696bfeb5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shokaku_jf033_rangefinder_1_5m_skinned_60
+    second: {fileID: 2100000, guid: df90ec1a45021cc408abac1244239a68, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shokaku_jga004_25mm_type96_triple_1_727
+    second: {fileID: 2100000, guid: 4014cbf16d0b7394f8eb9460d04c3fff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shokaku_jga004_25mm_type96_triple_1_wire_728
+    second: {fileID: 2100000, guid: d0ebdcfc594e19a419dd34b1138d0710, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shokaku_jga010_25mm_type96_839
+    second: {fileID: 2100000, guid: f3b5c69f87adb5244ac0cc1c470368fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shokaku_jm002_paravane_29
+    second: {fileID: 2100000, guid: 459b52577193c184fba21cb93cda7ca9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shokaku_jm007_life_buoy_box_400
+    second: {fileID: 2100000, guid: f72f4bf3c1658a44987f5600b0b4b754, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shokaku_jm007_life_buoy_box_wire_400
+    second: {fileID: 2100000, guid: 14b26cf7a3e104644af4a72bd9f62798, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shokaku_jm008_searchlight_394
+    second: {fileID: 2100000, guid: e98d1320ec188fc4481d98d46e10e54b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shokaku_jm009_signal_lamp_447
+    second: {fileID: 2100000, guid: 5a23162b699f66e47a756fc47e377196, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shokaku_jm013_reels_1_207
+    second: {fileID: 2100000, guid: 858e709f7cce33a40aeadac92d89dda5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shokaku_jm025_fairled_900
+    second: {fileID: 2100000, guid: 35b4123806b8e264aa9e27a56b4ac682, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shokaku_jm026_bollards_532
+    second: {fileID: 2100000, guid: 84cc45ae687692040b3e63af4e4a6112, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shokaku_jm032_electric_deck_winch_76
+    second: {fileID: 2100000, guid: aec4256ca836eff4282ac8f12ea1da16, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shokaku_jm033_roller_fairled_980
+    second: {fileID: 2100000, guid: 49d7268b5ddb8bd4aa483100173e4474, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shokaku_jm038_motor_boats_11m_237
+    second: {fileID: 2100000, guid: 01d31a6e16af7144eb92b24e6a188906, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shokaku_jm049_davit_2_492
+    second: {fileID: 2100000, guid: 047e8e41be3448b49b93a78ebbb6e20a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shokaku_jm059_deck_hatch_8_534
+    second: {fileID: 2100000, guid: 0a1d103743477724fbc371937077016d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shokaku_jm075_crane_2_485
+    second: {fileID: 2100000, guid: 5fc8459a4afb0c44b85c2fa2d2357668, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shokaku_jm075_crane_2_wire_485
+    second: {fileID: 2100000, guid: 4393bb6007bb9f84ab6711563ecd9ecc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shokaku_jm076_elevating_mast_542
+    second: {fileID: 2100000, guid: 90ab499b43c843a46863239b03382288, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shokaku_jm076_elevating_mast_wire_542
+    second: {fileID: 2100000, guid: 8b9341194de6039408d63d36314f278e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shokaku_jm092_running_lights_r_515
+    second: {fileID: 2100000, guid: 50de6985810154147b8902b94f056a79, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shokaku_jm099_signal_lamp_30
+    second: {fileID: 2100000, guid: 58be2b601e80ecd4aa4763573f00f500, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shokaku_jm101_runway_lights_1l_603
+    second: {fileID: 2100000, guid: 455f23e7e4c0eea40957b8ae42563cdc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shokaku_jm107_binocular_719
+    second: {fileID: 2100000, guid: 4837ba62cd5e80b41be821839c10cfcb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shokaku_jm181_motor_boats_11m_193
+    second: {fileID: 2100000, guid: 2764d6cd8cc53ce4a8c2d5f922182b0a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shokaku_jm181_motor_boats_11m_wire_193
+    second: {fileID: 2100000, guid: 07e1f6df8989d9144ab1b60302a4ab07, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shokaku_jm310_chrysanthemum_full_530
+    second: {fileID: 2100000, guid: ff565730275c44e4093f5962257b0fe4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shokaku_jm368_life_buoy_56
+    second: {fileID: 2100000, guid: 2f3184a521051cf41af7c450fb062b1d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shokaku_jrs010_radar_type_13_skinned_525
+    second: {fileID: 2100000, guid: 6551e511038154142bd9acb56154b8f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shokaku_jsa012_zuikaku_1944_deck_house_582
+    second: {fileID: 2100000, guid: e7232e2ade4a19d4c9ebca85e865915c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shokaku_jsa012_zuikaku_1944_hull_452
+    second: {fileID: 2100000, guid: 3f7c1b0cb0b33104982a97a8b66ece32, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shokaku_jsa012_zuikaku_1944_hull_wire_452
+    second: {fileID: 2100000, guid: 32d352c6065e46145ad38caea5549cce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shokaku_transparent_glass_alpha_193
+    second: {fileID: 2100000, guid: 561bbdb328875364c8732b0b100ea0ef, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: aircraft_inside3_a
+    second: {fileID: 2800000, guid: 8bb85b389fa27254e931b2223ef5ee55, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: aircraft_inside3_n_s
+    second: {fileID: 2800000, guid: e56cafda8d9da9c48804a5f2aaf4964b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: barrage_balloon_rope
+    second: {fileID: 2800000, guid: 52613bc4f5fbcad47ac4a80fc6ba30b7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: barrage_balloon_rope_a
+    second: {fileID: 2800000, guid: 1fd8fd71c8618494c961ce9ec5f69ebd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: c001_net_alpha_a
+    second: {fileID: 2800000, guid: 374f60226ebe46f4eb4812eaee705231, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: c001_net_alpha_a_alpha
+    second: {fileID: 2800000, guid: 1d2d804bdba7a784d9c9ce53974a5e04, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: c010_grid_8_alpha_a
+    second: {fileID: 2800000, guid: 054d49563df434b4786989663aadd910, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: c010_grid_8_alpha_a_alpha
+    second: {fileID: 2800000, guid: d3a53a12069f7a547909126ebf002188, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: cm001_propeller_a
+    second: {fileID: 2800000, guid: e627ec184eb637740ac28ff0005b716d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: cm001_propeller_mg
+    second: {fileID: 2800000, guid: 1440cc9e7d316684baa755fb8835f7d8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: cm005_anchor_1_a
+    second: {fileID: 2800000, guid: e7bee9b9d14e2894aac1fed3389fecd7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: cm005_anchor_1_mg
+    second: {fileID: 2800000, guid: 8a68b3b3796a3a64f85b04168cb9179d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: cm010_fire_hose_reel_a
+    second: {fileID: 2800000, guid: 42568bef183a8ce45ba7f1ed117c96ad, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: cm010_fire_hose_reel_mg
+    second: {fileID: 2800000, guid: 6b1b4fa7fb1991548a24803a8d2f8949, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: cm016_boat_stowage_2_a
+    second: {fileID: 2800000, guid: d19d27e299dff4f4e8e4ae6f2872188f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: cm016_boat_stowage_2_mg
+    second: {fileID: 2800000, guid: 5932e0216fd9bdb46a9ecd8b0552514b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jd011_director_type_95_mod3_a
+    second: {fileID: 2800000, guid: 5b035f2004b480e49a08a8247d676837, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jd011_director_type_95_mod3_mg
+    second: {fileID: 2800000, guid: e2f7e15ba75365d4e9cde669686cc934, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jd022_director_type_95_mod1_a
+    second: {fileID: 2800000, guid: 435e2b09608142d4cbedf1af63b36a8d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jd022_director_type_95_mod1_mg
+    second: {fileID: 2800000, guid: 6f9bd630bad1fcc408908851aaa343bc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jd025_director_type_94_mg
+    second: {fileID: 2800000, guid: 62de3bba13bb2d149beaed54075d7a1e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jd025_director_type_94_mod1_a
+    second: {fileID: 2800000, guid: 6aded3b2ee8fc0747bfa6d2e46838696, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jd025_director_type_94_mod1_mg
+    second: {fileID: 2800000, guid: bcbf4226f4b409f489e08b4d3181096e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jf033_rangefinder_1_5m_a
+    second: {fileID: 2800000, guid: 90d7cd864500f6a4b9195feb97ce12bc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jf033_rangefinder_1_5m_mg
+    second: {fileID: 2800000, guid: 39f7640a188970348884cb1575f0b5ab, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jga004_25mm_type96_triple_1_a
+    second: {fileID: 2800000, guid: 148cacc3bfd6d5c45be0cc1429746183, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jga004_25mm_type96_triple_1_mg
+    second: {fileID: 2800000, guid: d9f569687739c4149a553b764f1b814a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jga010_25mm_type96_a
+    second: {fileID: 2800000, guid: 1bc7e44192998e84da5244f904cf5a13, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jga010_25mm_type96_mg
+    second: {fileID: 2800000, guid: eb9b9e964f5a0f141b2f164d7a1658ad, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jga096_40mm_bofors_a
+    second: {fileID: 2800000, guid: a08c42f4e43ae644ca98777aa7a0546d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jga096_40mm_bofors_mg
+    second: {fileID: 2800000, guid: 60667fe6ce71973409a9e523740d990f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jga195_120mm_launcher_a
+    second: {fileID: 2800000, guid: a4821eaef2b0e8e45816aba0d40fdf17, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jga195_120mm_launcher_mg
+    second: {fileID: 2800000, guid: 37a92f96326ae46479dd51973319ed01, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jgs076_100mm65_type98_a
+    second: {fileID: 2800000, guid: 561bbdd84d21aac45bfee83996bf4926, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jm002_paravane_a
+    second: {fileID: 2800000, guid: 492eff11c5cff314790a34e60fe13270, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jm002_paravane_mg
+    second: {fileID: 2800000, guid: a9630a1ccfd89f3488dda03aeeb63123, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jm007_life_buoy_box_a
+    second: {fileID: 2800000, guid: d1a60f742b49b80489cbf4d57e0eb254, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jm007_life_buoy_box_mg
+    second: {fileID: 2800000, guid: a1d78221082aa5b4c8dcea3a9c583049, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jm008_searchlight_a
+    second: {fileID: 2800000, guid: 9afcb19a2a7ed53488ca67462ed38e66, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jm008_searchlight_mg
+    second: {fileID: 2800000, guid: d8818fb840fd6674189523085b354cdd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jm009_signal_lamp_a
+    second: {fileID: 2800000, guid: 249fc3040a39b544fb331d083d34df66, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jm009_signal_lamp_mg
+    second: {fileID: 2800000, guid: f223af8d1de155544b60b94382617859, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jm013_reels_1_a
+    second: {fileID: 2800000, guid: 163fc88db0ab4df45ae35dfababfee68, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jm013_reels_1_mg
+    second: {fileID: 2800000, guid: d4bcee1e5a6a8004f9a886078a40bce4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jm025_fairled_a
+    second: {fileID: 2800000, guid: 4634edc50a7a44a468ffdc7eff869f6a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jm025_fairled_mg
+    second: {fileID: 2800000, guid: 152d9504c6e399c469f696b09c8b5899, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jm026_bollards_a
+    second: {fileID: 2800000, guid: 8727c3c77e9008f4689e56310b8d7cb2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jm026_bollards_mg
+    second: {fileID: 2800000, guid: 239157ecee70b634e84f3070ec31b06b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jm032_electric_deck_winch_a
+    second: {fileID: 2800000, guid: b2a7df563fff2b1489fc09e26093d2c7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jm032_electric_deck_winch_mg
+    second: {fileID: 2800000, guid: 4af88a50cb766cd45864796b7386a72e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jm033_roller_fairled_a
+    second: {fileID: 2800000, guid: 0cf94bc84ac38944399539f54181a477, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jm033_roller_fairled_mg
+    second: {fileID: 2800000, guid: e38c0971eb94ca54093e4e90d766d48a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jm038_motor_boats_11m_a
+    second: {fileID: 2800000, guid: 952d58389cfb8a94c97bcc493dbf1380, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jm038_motor_boats_11m_mg
+    second: {fileID: 2800000, guid: ed39a65aa1a88784bb614acb033f530c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jm049_davit_2_a
+    second: {fileID: 2800000, guid: 6ecc6ca97df3bd24caa0cbf278f58812, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jm049_davit_2_mg
+    second: {fileID: 2800000, guid: 9ea69b78b19c00f43b60d915f8c85756, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jm059_deck_hatch_8_a
+    second: {fileID: 2800000, guid: c8c1eba0b890ed445a36706002dc2440, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jm059_deck_hatch_8_mg
+    second: {fileID: 2800000, guid: 426d765ed2d53c44fa86cd01d72ff67c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jm075_crane_2_a
+    second: {fileID: 2800000, guid: 75f30844689d0d547ba2745049c02bbd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jm075_crane_2_mg
+    second: {fileID: 2800000, guid: 9f9dfe7cba20bdc458d7792c5e1f47ab, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jm076_elevating_mast_a
+    second: {fileID: 2800000, guid: 00728360830259f4cb233feafa7f073f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jm076_elevating_mast_mg
+    second: {fileID: 2800000, guid: 0ff22638ba32b1547830a61c5328f563, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jm092_running_lights_r_a
+    second: {fileID: 2800000, guid: e1f561c5b5f25ce438feb40c17ec05d6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jm092_running_lights_r_mg
+    second: {fileID: 2800000, guid: cd3c59edc71b49649b68b3fc0a952213, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jm099_signal_lamp_a
+    second: {fileID: 2800000, guid: d95e817a8554e124ba7cddec45cd6ab4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jm099_signal_lamp_mg
+    second: {fileID: 2800000, guid: e103659696f33204b833d79203a0dfd5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jm101_runway_lights_1l_a
+    second: {fileID: 2800000, guid: b24e9f51c33973841a21b58f29cc1ed5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jm101_runway_lights_1l_mg
+    second: {fileID: 2800000, guid: ebfd4bc612bc598439cb0216a59c0402, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jm107_binocular_a
+    second: {fileID: 2800000, guid: 8d1f18dcabfe48047bbb66c9e3ba25b1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jm107_binocular_mg
+    second: {fileID: 2800000, guid: 6ebfda495eaebc645b9a0e26c2d9fdec, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jm181_motor_boats_11m_a
+    second: {fileID: 2800000, guid: 767bb8deddcc4b84e869907ed425b8c5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jm181_motor_boats_11m_mg
+    second: {fileID: 2800000, guid: f82c58e94cb9f5247badc8f38a194b6b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jm310_chrysanthemum_full_a
+    second: {fileID: 2800000, guid: 20f8d8cf67bcf1f4aa324818d4bede2d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jm310_chrysanthemum_full_mg
+    second: {fileID: 2800000, guid: 56e3e77676516bf48a41d5d5578c516d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jm368_life_buoy_a
+    second: {fileID: 2800000, guid: dbf4e5b5cace89247baed7b985f69289, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jm368_life_buoy_mg
+    second: {fileID: 2800000, guid: ff942fb1fd5778649b5cab33a0339595, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jrs010_radar_type_13_a
+    second: {fileID: 2800000, guid: 23da223d594d84a4cb7fb79f7a3209a1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jrs010_radar_type_13_mg
+    second: {fileID: 2800000, guid: 06e2638cdc8205445a79fd240d6c3aa0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jsa012_zuikaku_1944_deck_house_a
+    second: {fileID: 2800000, guid: f0a6f88cc9281ff49b9c9097c2c4222b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jsa012_zuikaku_1944_deck_house_mg
+    second: {fileID: 2800000, guid: a83ae4f86466fd1418c34a309ea0c882, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jsa012_zuikaku_1944_hull_a
+    second: {fileID: 2800000, guid: 282aa3e72a4ba6843aa2a1a283d10e51, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jsa012_zuikaku_1944_hull_mg
+    second: {fileID: 2800000, guid: 87f42492ebfedf748a2864a47fabea22, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: kitsuka_c
+    second: {fileID: 2800000, guid: 476113c177e112b4bab758ba4bd821d5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: kitsuka_n_s
+    second: {fileID: 2800000, guid: 4039f425d1abad24fbec165faf2ea5e4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: r2y2_keiun_detail_a
+    second: {fileID: 2800000, guid: 29293d6f921fb68448f7020dbbad07c1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: r2y2_keiun_detail_n_s
+    second: {fileID: 2800000, guid: c1669133b2ec1f142a7563005114a073, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: r2y2_keiun_var1_green_a
+    second: {fileID: 2800000, guid: fef0f965ffde8834e9a74625e44933c2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: r2y2_keiun_var1_green_n_s
+    second: {fileID: 2800000, guid: 663dab3ea3215de4cb200cfa2418e93b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: r2y2_v2_pylon_c
+    second: {fileID: 2800000, guid: e99ae3ff28cb7884691ad1ce9ae803d6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: r2y2_v2_pylon_n_s
+    second: {fileID: 2800000, guid: 7bcbac4a2371e13439345ed5cb84f30b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: transparent_glass_alpha_a
+    second: {fileID: 2800000, guid: 3094dbe96b891ab4a80c45e79ec839bf, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "\u7532\u677F"
+    second: {fileID: 2800000, guid: acd8cb8da53ae4f448878c07a5e58959, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 600
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 6
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

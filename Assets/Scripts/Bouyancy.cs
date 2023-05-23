@@ -5,53 +5,75 @@ using UnityEngine.Rendering.HighDefinition;
 
 public class Bouyancy : MonoBehaviour
 {
-	[SerializeField]
-	protected WaterSurface oceanSurface;
+    [SerializeField]
+    protected WaterSurface oceanSurface;
 
-	[SerializeField]
-	protected Rigidbody hullRigidbody;
+    [SerializeField]
+    protected Transform rootObject;
 
-	[SerializeField]
-	protected int bouyCount;
+    [SerializeField]
+    protected Transform bow;
 
-	[SerializeField]
-	protected float submergeDepth;
+    [SerializeField]
+    protected Transform stern;
 
-	[SerializeField]
-	protected float displacementPercent;
+    [SerializeField]
+    protected Transform port;
 
-	[SerializeField]
-	protected float waterDrag;
+    [SerializeField]
+    protected Transform starboard;
 
-	[SerializeField]
-	protected float waterAngularDrag;
+    [SerializeField]
+    protected float smoothFactor;
 
-	[SerializeField]
-	protected float smoothFactor;
+    [SerializeField]
+    protected float maxXRotation = 90f;
 
-	WaterSearchParameters Search;
-	WaterSearchResult SearchResult;
+    [SerializeField]
+    protected float maxZRotation = 90f;
 
-	private void FixedUpdate()
-	{
-		hullRigidbody.AddForceAtPosition(Physics.gravity / bouyCount, transform.position, ForceMode.Acceleration);
-		Search.startPosition = transform.position;
-		oceanSurface.FindWaterSurfaceHeight(Search, out SearchResult);
+    WaterSearchParameters Search;
+    WaterSearchResult bowHeight;
+    WaterSearchResult sternHeight;
+    WaterSearchResult portHeight;
+    WaterSearchResult starboardHeight;
 
-			if (transform.position.y < SearchResult.height)
-			{
-				float displacementHeight = Mathf.Clamp01(SearchResult.height - transform.position.y / submergeDepth) * displacementPercent;
+    private Vector2 targetValues;
 
-				// Smoothly interpolate the forces
-				Vector3 targetForce = new Vector3(0f, Mathf.Abs(Physics.gravity.y) * displacementHeight, 0f);
-				Vector3 smoothedForce = Vector3.Lerp(Vector3.zero, targetForce, Time.fixedDeltaTime * smoothFactor);
-				hullRigidbody.AddForceAtPosition(smoothedForce, transform.position, ForceMode.Acceleration);
+    private void Start()
+    {
+        targetValues = Vector2.zero;
+    }
 
-				Vector3 velocityForce = displacementHeight * -hullRigidbody.velocity * waterDrag * Time.fixedDeltaTime;
-				hullRigidbody.AddForce(velocityForce, ForceMode.VelocityChange);
+    private void FixedUpdate()
+    {
+        Search.startPosition = bow.position;
+        oceanSurface.FindWaterSurfaceHeight(Search, out bowHeight);
 
-				Vector3 angularVelocityForce = displacementHeight * -hullRigidbody.angularVelocity * waterAngularDrag * Time.fixedDeltaTime;
-				hullRigidbody.AddTorque(angularVelocityForce, ForceMode.VelocityChange);
-		}
-	}
+        Search.startPosition = stern.position;
+        oceanSurface.FindWaterSurfaceHeight(Search, out sternHeight);
+
+        Search.startPosition = port.position;
+        oceanSurface.FindWaterSurfaceHeight(Search, out portHeight);
+
+        Search.startPosition = starboard.position;
+        oceanSurface.FindWaterSurfaceHeight(Search, out starboardHeight);
+
+        float targetXAxis = bowHeight.height - sternHeight.height;
+        float targetZAxis = portHeight.height - starboardHeight.height;
+
+        // Slowly interpolate towards the target values
+        targetValues = Vector2.Lerp(targetValues, new Vector2(targetXAxis, targetZAxis), Time.fixedDeltaTime * smoothFactor);
+
+        // Clamp the target values to prevent reaching 1 or -1
+        float clampedXAxis = Mathf.Clamp(targetValues.x, -0.99f, 0.99f);
+        float clampedZAxis = Mathf.Clamp(targetValues.y, -0.99f, 0.99f);
+
+        // Calculate the rotation angles based on the clamped values and maximum rotation
+        float rotationX = clampedXAxis * maxXRotation;
+        float rotationZ = clampedZAxis * maxZRotation;
+
+        // Apply the rotation to the root object
+        rootObject.rotation = Quaternion.Euler(rotationX, 0f, rotationZ);
+    }
 }
