@@ -32,6 +32,9 @@ public class Bouyancy : MonoBehaviour
     [SerializeField]
     protected float maxZRotation = 90f;
 
+    [SerializeField]
+    protected float maxYRotation = 90f;
+
     WaterSearchParameters Search;
     WaterSearchResult bowHeight;
     WaterSearchResult sternHeight;
@@ -67,13 +70,15 @@ public class Bouyancy : MonoBehaviour
 
         // Clamp the target values to prevent reaching 1 or -1
         float clampedXAxis = Mathf.Clamp(targetValues.x, -0.99f, 0.99f);
+        float clampedYAxis = Mathf.Clamp(targetValues.x, -0.99f, 0.99f);
         float clampedZAxis = Mathf.Clamp(targetValues.y, -0.99f, 0.99f);
 
         // Calculate the rotation angles based on the clamped values and maximum rotation
         float rotationX = clampedXAxis * maxXRotation;
+        float rotationY = clampedYAxis * maxYRotation;
         float rotationZ = clampedZAxis * maxZRotation;
 
         // Apply the rotation to the root object
-        rootObject.rotation = Quaternion.Euler(rotationX, 0f, rotationZ);
+        rootObject.rotation = Quaternion.Euler(rotationX, rotationY, rotationZ);
     }
 }
